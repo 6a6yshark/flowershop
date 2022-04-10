@@ -7,6 +7,26 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel Margin="0,0,0,0">
+            <TextBlock Text="Добавление товара" Margin="0,0,0,0" HorizontalAlignment="Center" FontSize="30" FontFamily="Bahnschrift" />
+            <WrapPanel Margin="0,10,0,0">
+                <TextBlock Text="Наименование:" FontSize="24" FontFamily="Bahnschrift"> </TextBlock>
+                <TextBox Width="500" Margin="16,0,0,0"> </TextBox>
+                </WrapPanel>
+            <WrapPanel Margin="0,10,0,0">
+                <TextBlock Text="Количество:" FontSize="24" FontFamily="Bahnschrift"> </TextBlock>
+                <TextBox Width="500" Margin="50,0,0,0"> </TextBox>
+            </WrapPanel>
+            <WrapPanel Margin="0,10,0,0">
+                <TextBlock Text="Цена:" FontSize="24" FontFamily="Bahnschrift"></TextBlock>
+                <TextBox Width="500" Margin="123,0,0,0"></TextBox>
+            </WrapPanel>
+            <WrapPanel Margin="0,10,0,0">
+                <TextBlock Text="Описание:" FontSize="24" FontFamily="Bahnschrift"></TextBlock>
+                <TextBox Width="500" Margin="72,0,0,0"></TextBox>
+            </WrapPanel>
+            
+            <Button Background="LightPink" Height="30" Width="300" Content="Добавить товар" FontFamily="Bahnschrift" FontSize="20" Margin="0,158,0,0" />
+        </StackPanel>
     </Grid>
 </Window>
